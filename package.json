@@ -1,0 +1,26 @@
+{
+  "name": "@lamartinecabral/pi-all-tools",
+  "version": "1.0.0",
+  "description": "An extension to PI coding agent to include all built-in tools by default.",
+  "main": "./index.ts",
+  "author": "lamartinecabral",
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.79.6",
+    "typebox": "^1.2.14"
+  }
+}
